@@ -13,4 +13,4 @@ gitbash commands
 9)git branch  
 10)git branch -a  (or)  -r    ("-a" gives the list of both local and remote branches, "-r" gives only remote branches, i mean remote tracking branches in local)  
 11)git branch -d localBranchName  
-12)git branch -d -r origin/<remote branch name>  
+12)git branch -d -r origin/remote branch name    
