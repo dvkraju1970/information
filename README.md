@@ -2,7 +2,7 @@
 
 gitbash commands
 
-1)git branch MynewBranch    (create local branch)
+1)git branch MynewBranch    (create local branch)  
 2)git push -u origin MynewBranch    (pushes the newly created "MynewBranch" to remote origin)
 3)git pull origin MynewBranch   (It pulls the branch from origin to local)
 4)git checkout MynewBranch    (switch to MynewBranch)
