@@ -17,5 +17,10 @@ gitbash commands
 13)git branch  
 14)git branch -a  (or)  -r    ("-a" gives the list of both local and remote branches, "-r" gives only remote branches)
 15)git branch -d <Branch> (deletes the branch in local)    
+16)git revert <commitId>  (to revert back the commit)
+17)git revert <commitId> -m <1 or 2>  (when it is a merge commit, we can revert and comeback to the specific commit mentioned)
+18)git log  (will display the list of commits)
+19)git reset --soft HEAD~2  (it will reset the last two commits of the specified branch)
+20)git push origin +<branchName> --force  (It will push the reseted(deleted) commits to the origin)
 
 git switch <Branch>  ===== git checkout <Branch>  (both do the same work of moving to different branch)--- need to know the difference   
